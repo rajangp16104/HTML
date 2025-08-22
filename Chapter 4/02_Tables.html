@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML- Tables</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: white;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    thead {
+        background-color: #4CAF50;
+        color: white;
+    }
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    th {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+</style>
+</head>
+
+<body>
+    <h1> Tables in HTML</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Google</td>
+                <td>Search Engine</td>
+                <td>$70000</td>
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td>Social Media</td>
+                <td>$80000</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>E-commerce</td>
+                <td>$90000</td>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>Technology</td>
+                <td>$100000</td>
+            </tr>
+            <tr>
+                <td>Thank</td>
+                <td colspan="2"> You</td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
